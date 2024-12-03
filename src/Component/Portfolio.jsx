@@ -12,11 +12,11 @@ function Portfolio() {
 		{
 			id:1,
 			img:java,
-			name:java
+			name:"java"
 
 		},{
 			id:2,
-			express,
+			img:express,
 			name:"express"
 		},
 		{
@@ -62,7 +62,7 @@ function Portfolio() {
 			<img src={img} alt="" className='w-[120px] h-[120px]  rounded-full p-1 border-[2px]' />
 			<div>
 				<div className='font-bold  text-xl mb-2 px-2'>{name}</div>
-				<p className='px-2 text-gray-500'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, quisquam?</p>
+				<p className='px-2 text-gray-500'>I am learning THere are so Many Technologies which Availabe here PLZ watch  </p>
 			</div>
 			<div className='justify-around px-6 py-4  space-x-4'><button className='bg-blue-500 hover:bg-blue-900 text-white font-bold px-4 py-2 rounded'>Video</button>
 			<button className='bg-green-500 hover:bg-green-900 text-white font-bold px-4 py-2 rounded'>Source code</button></div>

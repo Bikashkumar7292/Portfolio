@@ -16,11 +16,11 @@ function Experince() {
 		{
 			id:1,
 			img:java,
-			name:java
+			name:"java"
 
 		},{
 			id:2,
-			express,
+			img:express,
 			name:"express"
 		},
 		{
@@ -70,7 +70,7 @@ function Experince() {
 	<div name="Experince" className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16   '>
 		<div>
 		<h1 className='text-green-600 font-bold text-3xl mb-5'>My Experince</h1>
-		<span className=''> I've more than one yaer experince in below tecgnology </span>
+		<span className=''> I've more than one yearr experince in below tecgnology </span>
 		</div>
 		<div className=' grid grid-cols-2 md:grid-cols-5 gap-7 my-3'>
 		{cardItem.map(({id,img,name})=>(
